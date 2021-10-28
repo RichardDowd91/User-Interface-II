@@ -36,24 +36,20 @@ body{
     color:black;
     background-color: white;
 }
-header{
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-}
+
 nav{
     display: flex;
-    justify-content: right;
-/* come back later*/
-}
-h1{
+    justify-content: space-between;
+    }
+
+/*h1{
     width:80%;
     background-image: none;
     display: flex;
     justify-content: center;
  /*come back later*/   
-}
-.title{
+
+/*.title{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -68,4 +64,4 @@ h1{
 .footer{
     display: flex;
     justify-content: center;
-}
+} 
