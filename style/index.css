@@ -43,14 +43,20 @@ header{
 }
 nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
 /* come back later*/
 }
 h1{
     width:80%;
     background-image: none;
     display: flex;
+    justify-content: center;
  /*come back later*/   
+}
+.title{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .middle{
     display: flex;
