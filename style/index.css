@@ -30,4 +30,21 @@ footer, header, hgroup, menu, nav, section {
     max-width: 100%;
     border: 1px solid gray;
 }
-
+header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+nav {
+    justify-content: flex-end;
+/* come back later*/
+}
+h1{
+    width:80%;
+    background-image: none;
+ /*come back later*/   
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+}
