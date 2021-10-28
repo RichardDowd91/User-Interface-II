@@ -28,23 +28,38 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid gray;
+    border: 1px solid grey;
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:black;
+    background-color: white;
 }
 header{
     display: flex;
     width: 100%;
     justify-content: flex-start;
 }
-nav {
+nav{
+    display: flex;
     justify-content: flex-end;
 /* come back later*/
 }
 h1{
     width:80%;
     background-image: none;
+    display: flex;
  /*come back later*/   
 }
 .middle{
     display: flex;
     flex-wrap: wrap;
+    width: 55%;
+
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
 }
