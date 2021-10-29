@@ -60,8 +60,21 @@ footer, header, hgroup, menu, nav, section {
         padding: 20px;
         text-align:center;
     }
-
-
+    .row{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    .project1 .project2 .project3 .project4 .project5 .project6{
+        text-align: center;
+    }
+    .second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly ;
+        padding: 20px;
+    }
 /*h1{
     width:80%;
     background-image: none;
