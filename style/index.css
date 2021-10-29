@@ -24,26 +24,23 @@ footer, header, hgroup, menu, nav, section {
 }
 
 *{
-    box-sizing: border-box;
+    
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    
 }
     body{
         font-size:1.8rem;
         line-height: 1.5;
-        color: white;
-        background-color: darkgreen;
-    }
+        color:black;
+        background-color: green;
+        
+}
 
-    .name{
-        display: flex;
-        justify-content: flex-start;
-    }
     nav{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
     }
     .top{
         display: flex;
@@ -53,7 +50,7 @@ footer, header, hgroup, menu, nav, section {
         background-image: url('https://picsum.photos/600/400');
         background-repeat: no-repeat;
         background-size: cover;
-        color:white;
+        color:black;
         font-size: large;
         width: 600px;
         height: 400px;
