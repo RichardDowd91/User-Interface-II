@@ -126,20 +126,14 @@ footer, header, hgroup, menu, nav, section {
 /* media queries ie tablets */
 
 @media (max-width: 800px){
-    header h1{
-        align-content: center;
-        color:black;
-    }
-    header{
-        flex-flow:column
-    }
+   
 }
 
 /*  mobile queries */
 
 @media (max-width: 500px){
     
-    body{
+    /*body{
         width: 100%;
     }
     /*header h1{
@@ -157,22 +151,36 @@ footer, header, hgroup, menu, nav, section {
        
     }*/
     
-    .links{ 
+        nav{ 
        display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+    } 
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
-    .image-button{
+    .links button{
+        width:40%;
+        margin: .5% 0;
+    }
+
+    .top{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    /*.image-button{
         width: 450px;
         height: 300px;
-    }
+    }*/
 
-    section {
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        width: 500px;
-    }
-}
+    
     
     /*.row, .second{
         justify-content: space-evenly;
