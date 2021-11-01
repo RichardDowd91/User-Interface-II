@@ -139,6 +139,10 @@ footer, header, hgroup, menu, nav, section {
 /*  mobile queries */
 
 @media (max-width: 500px){
+    
+    body{
+        width: 100%;
+    }
     header h1{
         align-content:center;
         width: 50%;
@@ -146,11 +150,15 @@ footer, header, hgroup, menu, nav, section {
     }
     
     .nav{
+        flex-wrap: wrap;
         justify-content: center;
-        flex-flow:column wrap;
-        align-items: stretch;
-        margin-left: 165px;
-        padding:0;
+        flex-flow:column;
+        
+       
+    }
+    
+    .links{ 
+        width: 100%;
     }
 
     .image-button{
@@ -158,7 +166,13 @@ footer, header, hgroup, menu, nav, section {
         height: 300px;
     }
 
-    .row, .second{
+    section .mid{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+    
+    /*.row, .second{
         justify-content: space-evenly;
         padding: 50px;
 
