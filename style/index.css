@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: lightgray;
+    border: 1px gray;
     
 }
     body{
@@ -36,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
         line-height: 1.5;
         color:black;
         background-color: green;
+        
         
 }
 
@@ -128,7 +129,7 @@ footer, header, hgroup, menu, nav, section {
 @media (max-width: 800px){
     header h1{
         align-content: center;
-        color:purple;
+        color:black;
     }
     header{
         flex-flow:column
@@ -140,10 +141,41 @@ footer, header, hgroup, menu, nav, section {
 @media (max-width: 500px){
     header h1{
         align-content:center;
-        color:purple;
+        width: 50%;
+        margin-left: 165px;
     }
-    header{
-        flex-flow:column
-        width: 30%;
+    
+    .nav{
+        justify-content: center;
+        flex-flow:column wrap;
+        align-items: stretch;
+        margin-left: 165px;
+        padding:0;
     }
+
+    .image-button{
+        width: 450px;
+        height: 300px;
+    }
+
+    .row, .second{
+        justify-content: space-evenly;
+        padding: 50px;
+
+    }
+    .project1, .project2{
+        justify-content: space-evenly;
+        align-items: center;
+       
+    }
+
+    .project3, .project4{
+        justify-content: space-evenly;
+        
+    }
+
+    .project5, .project6{
+        justify-content: space-evenly;
+    }
+
 }
