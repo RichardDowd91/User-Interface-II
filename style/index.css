@@ -1,1 +1,123 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    
+}
+    body{
+        font-size:1.8rem;
+        line-height: 1.5;
+        color:black;
+        background-color: green;
+        
+}
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top{
+        display: flex;
+        justify-content:center ;
+    }
+    .image-button{
+        background-image: url('https://picsum.photos/600/400');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:black;
+        font-size: large;
+        width: 600px;
+        height: 400px;
+    }
+
+    footer{
+        background-color:lightgray;
+        padding: 20px;
+        text-align:center;
+    }
+    .row{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 20px;
+        text-align: center;
+    }
+    .project1 .project2 .project3 .project4 .project5 .project6 {
+        text-align: center;
+    }
+    .second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly ;
+        padding: 20px;
+        text-align: center;
+    }
+
+    button{
+        background-color: white;
+        color:black;
+        border:black solid 1px;
+        padding: 5px 10px;
+    }
+
+    button:hover{
+        background-color: black;
+        color:white;
+        border:white solid 1px;
+    }
+    
+    button a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+/*h1{
+    width:80%;
+    background-image: none;
+    display: flex;
+    justify-content: center;
+ /*come back later*/   
+
+/*.title{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+} 
